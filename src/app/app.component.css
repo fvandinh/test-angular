@@ -1,0 +1,32 @@
+.sort{
+    font-size: 0.75rem;
+}
+.title{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.title i{
+    display: none;
+    font-size: inherit;
+}
+.title:hover i {
+    display: inline-block;
+}
+.title:hover {
+    text-decoration: underline;
+}
+.content-container {
+    background: #F8F8FF;
+    color: #4565AA;
+    border: 1px solid #C0C0C0;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.comment {
+    border-top: 1px solid #CCC;
+    margin-top: 5px;
+    padding-top: 5px;
+}
